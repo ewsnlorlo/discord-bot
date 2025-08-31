@@ -1,0 +1,9 @@
+mkdir discord-bot
+cd discord-bot
+touch bot.py requirements.txt
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/유저이름/discord-bot.git
+git push -u origin main
